@@ -16,18 +16,40 @@ MonoBehaviour:
     UserAgreesToHaveItOnTheScene: 0
     UserAgreesToHaveItInsideThePluginsFolder: 0
     GoogleLiveSyncIsUptoDate: 1
-    mTerms: []
+    mTerms:
+    - Term: abb
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u8016"
+      - Your Mom
+      Flags: 0000
+      Languages_Touch: []
+    - Term: fuckyou
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u4F60\u5ABD"
+      - Your Mother
+      Flags: 0000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
-    mLanguages: []
-    IgnoreDeviceLanguage: 0
-    _AllowUnloadingLanguages: 0
-    Google_WebServiceURL: 
-    Google_SpreadsheetKey: 
-    Google_SpreadsheetName: 
-    Google_LastUpdatedVersion: 
-    Google_Password: change_this
+    mLanguages:
+    - Name: Chinese
+      Code: zh-TW
+      Flags: 0
+    - Name: English
+      Code: en
+      Flags: 0
+    IgnoreDeviceLanguage: 1
+    _AllowUnloadingLanguages: 2
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbzaB11qp4TP2AXv8yqSM2pfL2Pan5nosc7L6rhCh83glq3srId1KMpW_xk2EFnvj8En/exec
+    Google_SpreadsheetKey: 1wanSUy2Rtyp045DS4RW8t7wXovt23Jwu3GYLRR8QJlQ
+    Google_SpreadsheetName: I2Loc My project Assets/Scenes/SampleScene.unity GameObject
+    Google_LastUpdatedVersion: 1748968110465
+    Google_Password: asdfghjkl
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2
     GoogleUpdateSynchronization: 1
